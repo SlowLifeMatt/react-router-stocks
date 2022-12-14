@@ -2,7 +2,7 @@ import { useParams } from "react-router-dom"
 import { useState, useEffect } from 'react'
 
 function Stock() {
-// const apiKey = "f0458377386c61fea5f1dc61373c8fd0"
+
   const params = useParams();
   // console.log(params);
   const symbol = params.symbol;
