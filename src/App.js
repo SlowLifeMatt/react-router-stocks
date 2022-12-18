@@ -18,6 +18,7 @@ function App() {
         <Route path="/stocks/:symbol" element={<Stock />} />
         <Route path="/about" element={<About />} />
       </Routes>
+      
     </div>
   );
 }

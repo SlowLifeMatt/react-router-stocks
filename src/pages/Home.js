@@ -1,7 +1,10 @@
 const Home = () => {
-    return (
-      <div>"This is the Homepage page"</div>
-    )
-  }
-  
-  export default Home;
+  return (
+    <div>
+      <h1>"Welcome to the Stock Table"</h1>
+      <h3>Follow the nav bar overhead to look at the stocks</h3>
+    </div>
+  );
+};
+
+export default Home;
