@@ -1,9 +1,11 @@
+/* i put a height on .App so the background color fills the whole page */
 * {
   
   text-align: center;
 }
 .App {
   background-color: rgb(165, 160, 154);
+  height: 100vh;
 }
 .nav {
   display:flex;
@@ -11,8 +13,6 @@
   background-color: rgb(96, 164, 212);
   color: white;
   text-align: center;
- 
-
 }
 a {
   text-decoration: none;

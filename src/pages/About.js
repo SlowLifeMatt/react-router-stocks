@@ -1,5 +1,5 @@
 import React from 'react'
-
+// this might be a good place to maybe try to pull in more api data and do about info for each stock, a stretch.. 
 const About = () => {
   return (
     
