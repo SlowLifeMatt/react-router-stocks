@@ -53,7 +53,7 @@ function Dashboard() {
           <div>
             <table
               style={{
-                width: "100%",
+                width: "100%"
               }}
             >
               <h3>

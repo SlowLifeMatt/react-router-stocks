@@ -1,6 +1,7 @@
 import { useParams } from "react-router-dom";
 import { useState, useEffect } from "react";
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 function Stock() {
   const params = useParams();
   const symbol = params.symbol;
@@ -21,7 +22,7 @@ function Stock() {
   return (
     <div className="Stock">
       {stock === "null" ? (
-        <h2>Loading...</h2>
+        <i class="fa fa-spinner fa-spin" style={{ fontSize:"24px"}}></i>
       ) : (
         <div>
           <h1>{stock[0].name}</h1>
@@ -46,7 +47,7 @@ function Stock() {
             }}
           >
             EPS: ${stock[0].eps}
-          </h3>
+            </h3>
         </div>
       )}
     </div>

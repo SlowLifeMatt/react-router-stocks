@@ -1,12 +1,16 @@
-/* i put a height on .App so the background color fills the whole page */
+/* i create a full-page class with 100vh to extend the grey background */
 * {
   
   text-align: center;
 }
 .App {
   background-color: rgb(165, 160, 154);
+
+}
+.full-page {
   height: 100vh;
 }
+
 .nav {
   display:flex;
   justify-content: center;
